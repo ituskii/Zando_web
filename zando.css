@@ -291,6 +291,7 @@ header{
                 align-items: center;
                 text-transform: uppercase;
                 
+                
                 h3{
                     color: red;
                 }
@@ -298,6 +299,82 @@ header{
                 span{
                     font-weight: normal;
                     color: gray;
+                    text-decoration: line-through;
+                }
+            }
+            .title{
+                font-weight: 500;
+                margin-block: 8px;
+            }
+            .color{
+                display: flex;
+                gap: 10px;
+                div{
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 4px;
+                    
+                }
+                div:first-child{
+                    background-color: rgb(255, 255, 255);
+                    border: 1px gray solid;
+                }
+                div:nth-child(2){
+                    background-color: pink;
+                    border: 1px gray solid;
+                }
+               
+            }
+            .color2{
+                display: flex;
+                gap: 10px;
+                div{
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 4px;
+                    
+                }
+                
+            }
+        }
+    }
+}
+.section4{
+    display: flex;
+    gap: 15px;
+
+    .cart{
+        width: 25%;
+        height: 500px;
+
+        img{
+            height: 80%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .text{
+            height: 10%;
+            width: 100%;
+            padding: 15px 10px;
+            display: flex;
+            flex-direction: column;
+            
+
+            .price{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-transform: uppercase;
+                
+                
+                h3{
+                    color: red;
+                }
+
+                span{
+                    font-weight: normal;
+                    color: gray;
+                    text-decoration: line-through;
                 }
             }
             .title{
@@ -307,21 +384,8 @@ header{
             .color{
                 display: flex;
                 gap: 3px;
-                div{
-                    width: 20px;
-                    height: 20px;
-                    border-radius: 4px;
-                    border: 1px gray solid;
-                }
-                div:first-child{
-                    background-color: red;
-                }
-                div:nth-child(2){
-                    background-color: blue;
-                }
-                div:last-child{
-                    background-color: black;
-                }
+               
+                
             }
         }
     }
